@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="stylesheet" href="./style.css">
+    <title>GOOGLE CLOUD VISION API TEST</title>
+    <!-- <script type="text/javascript" src="../src/index.js"></script> -->
+    <script type="text/javascript" src="./main.js"></script>
+  </head>
+  <body>
+    <p class="page-title">Google Cloud Vision API Test</p>
+    <div id="div-button">
+      <button type="button" id="btn-shutter">Take Pic</button>
+      <select name="detection-type" id="detection-type">
+        <option value="1">LABEL_DETECTION</option>
+        <option value="2">TEXT_DETECTION</option>
+        <option value="3">SAFE_SEARCH_DETECTION</option>
+      </select>
+      <br>
+      <br>
+    </div>
+    <div id="div-image">
+      <video id="camera" width="320" height="240"></video>
+      <canvas id="pic" width="320" height="240"></canvas>
+    </div>
+    <div id="div-result">
+      <form name="form">
+        <textarea name="textarea" rows="5" cols="50">result...</textarea>
+      </form>
+    </div>
+  </body>
+</html>

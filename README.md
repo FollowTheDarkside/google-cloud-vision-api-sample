@@ -1,5 +1,8 @@
 # Sample for Google Cloud Vision API
 ## Overview
+![vision-api-sample](https://user-images.githubusercontent.com/9309605/115069512-9f02b980-9f2e-11eb-96b8-a8a87af1c52b.jpg)
+<br>
+
 This repository contains sample code using [Google Cloud Vision API](https://cloud.google.com/vision/). You need to set the API KEY in the env file before running this sample.
 <br>
 
